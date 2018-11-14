@@ -3,3 +3,11 @@ function forLoop(array){
     array.push("I am ${i} strange loop${i === 0 ? '': 's'}.");
   }
 }
+
+function whileLoop(n){
+
+  while (n != 0){
+    console.log(n);
+    n--;
+  }
+}
